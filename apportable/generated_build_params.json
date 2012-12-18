@@ -1,0 +1,208 @@
+{
+    "xcode_project": "ThisWayIsUp.xcodeproj", 
+    "moms": [], 
+    "sources": [
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "ThisWayIsUp/UpAppDelegate.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "ThisWayIsUp/main.m", 
+            "flags": [], 
+            "defines": {}
+        }, 
+        {
+            "language": "objc", 
+            "header_paths": [], 
+            "source": "ThisWayIsUp/UpViewController.m", 
+            "flags": [], 
+            "defines": {}
+        }
+    ], 
+    "infoplists": [
+        "./ThisWayIsUp/ThisWayIsUp-Info.plist"
+    ], 
+    "defines": {
+        "IBOutletCollection(ClassName)": "__attribute__((iboutletcollection(ClassName)))", 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60000, 
+        "IBAction": "void)__attribute__((ibaction)", 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "IBOutlet": "__attribute__((iboutlet))"
+    }, 
+    "pchs": [
+        "./ThisWayIsUp/ThisWayIsUp-Prefix.pch"
+    ], 
+    "assets": [
+        {
+            "asset": "ThisWayIsUp/en.lproj/UpViewController.xib", 
+            "target": null
+        }, 
+        {
+            "asset": "ThisWayIsUp/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/0c.png", 
+            "target": "0c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/0.png", 
+            "target": "0.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "ThisWayIsUp/45.png", 
+            "target": "45.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/45c.png", 
+            "target": "45c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/90.png", 
+            "target": "90.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/90c.png", 
+            "target": "90c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/135.png", 
+            "target": "135.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/135c.png", 
+            "target": "135c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/180.png", 
+            "target": "180.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/180c.png", 
+            "target": "180c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/225.png", 
+            "target": "225.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/225c.png", 
+            "target": "225c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/270.png", 
+            "target": "270.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/270c.png", 
+            "target": "270c.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/315.png", 
+            "target": "315.png"
+        }, 
+        {
+            "asset": "ThisWayIsUp/315c.png", 
+            "target": "315c.png"
+        }
+    ], 
+    "type": "app", 
+    "header_paths": [
+        {
+            "type": "iquote", 
+            "header_path": "ThisWayIsUp-generated-files.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "I", 
+            "header_path": "ThisWayIsUp-own-target-headers.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "I", 
+            "header_path": "ThisWayIsUp-all-target-headers.hmap", 
+            "hmap": {}
+        }, 
+        {
+            "type": "iquote", 
+            "header_path": "ThisWayIsUp-project-headers.hmap", 
+            "hmap": {
+                "UpAppDelegate.h": {
+                    "prefix": "ThisWayIsUp/", 
+                    "suffix": "UpAppDelegate.h", 
+                    "key": "UpAppDelegate.h"
+                }, 
+                "UpViewController.h": {
+                    "prefix": "ThisWayIsUp/", 
+                    "suffix": "UpViewController.h", 
+                    "key": "UpViewController.h"
+                }, 
+                "ThisWayIsUp-Prefix.pch": {
+                    "prefix": "ThisWayIsUp/", 
+                    "suffix": "ThisWayIsUp-Prefix.pch", 
+                    "key": "ThisWayIsUp-Prefix.pch"
+                }
+            }
+        }
+    ], 
+    "modules": [], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fwritable-strings", 
+        {
+            "flag": "-std=gnu++0x", 
+            "type": "c++"
+        }, 
+        "-fasm-blocks", 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "deps": [
+        "UIKit", 
+        "CoreMotion", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "config": {
+        "APPLICATION_NAME": "ThisWayIsUp", 
+        "LONG_VERSION": "1.0", 
+        "APPLICATION_IDENTIFIER": "com.versv.ThisWayIsUp", 
+        "APPLICATION_FULL_NAME": "ThisWayIsUp", 
+        "SHORT_VERSION": "1.0"
+    }
+}
