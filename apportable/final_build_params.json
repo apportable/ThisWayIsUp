@@ -91,11 +91,14 @@
     ], 
     "moms": [], 
     "config": {
-        "APPLICATION_NAME": "ThisWayIsUp", 
-        "LONG_VERSION": "1.0", 
+        "FEATURES": [
+            "portrait"
+        ], 
         "APPLICATION_IDENTIFIER": "com.versv.ThisWayIsUp", 
-        "APPLICATION_FULL_NAME": "ThisWayIsUp", 
-        "SHORT_VERSION": "1.0"
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "APPLICATION_NAME": "ThisWayIsUp", 
+        "APPLICATION_FULL_NAME": "ThisWayIsUp"
     }, 
     "header_paths": [
         {
